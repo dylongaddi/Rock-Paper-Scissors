@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors!</title>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
 </head>
 <body>
-    
 
-    <script src="javascript.js"> 
-        console.log(computerPlay)
-    
-    
-    
-    </script>
+<button class="selections">Rock</button>
+<button class="selections">Paper</button>
+<button class="selections">Scissors</button>
+
+
+<p id="roundResult">Choose your weapon! Victor is selected and score restarts when a player reaches 5 points!</p>
+<p>Player Score: <span id="pScore"> 0 </span></p>
+<p>Computer Score: <span id="cScore"> 0 </span></p>
+
+<div class='modal' id='winnerModal'>
+    <p id='winnerMessage'></p>
+    <p class => Press the button below to play once more!</p>
+</div>
+
+
+    <script src="javascript.js" defer></script>
 </body>
 </html>
